@@ -1,0 +1,7 @@
+zenml
+schedule
+scikit-learn
+pandas
+numpy
+matplotlib
+

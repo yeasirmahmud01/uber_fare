@@ -1,0 +1,10 @@
+from zenml.client import Client
+
+client = Client()
+
+schedule = client.create_schedule(
+    name="test_schedule",
+    pipeline_name="model_training_pipeline",
+    cron_expression="*/2 * * * *"
+)
+print(f"Schedule created: {schedule}")
